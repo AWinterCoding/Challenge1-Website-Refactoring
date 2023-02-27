@@ -6,10 +6,12 @@
   margin: 0;
 }
 
+/* This styling applies broadly to the entire body element */
 body {
   background-color: #d9dcd6;
 }
 
+/* Styling applied to the header class not to confused with the element */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -18,15 +20,17 @@ body {
   color: #ffffff;
 }
 
+/* header h1 element modifier */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Header seo modifier. This is modifying the SEO element in the header seperately */
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/* navigation stylization in the header class */
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -35,24 +39,29 @@ body {
   font-size: 20px;
 }
 
+/* un ordered list stylization in the header class */
 .header nav ul {
   list-style-type: none;
 }
 
+/* list item stylization in the header class */
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* This effects the redirects and the styling of them */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* This is styling for the paragraph */
 p {
   font-size: 16px;
 }
 
+/* This is styling for the hero class, primarily the image of the people in a meeting. */
 .hero {
   height: 850px;
   width: 100%;
@@ -62,22 +71,26 @@ p {
   background-image: url("/assets/images/digital-marketing-meeting.jpg");
 }
 
+/* classes assigned in the content section, the index.html will show specifics */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* classes assigned in the content section, the index.html will show specifics */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Content section, all elements inside have this styling applied */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Benefits effects the sidebar that gives a brief list of benefits to seo */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -89,54 +102,64 @@ p {
   background-color: #2589bd;
 }
 
+/* The lead article for the sidebar for seo */
 .benefit-lead {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* The branding article for the sidebar for seo */
 .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* The cost article for the sidebar for seo */
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Below is styling for the h3 element in the lead article */
 .benefit-lead h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Below is styling for the h3 element in the brand article */
 .benefit-brand h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Below is styling for the h3 element in the cost article */
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Icon for the lead article */
 .benefit-lead img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Icon for the brand article */
 .benefit-brand img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Icon for the cost article */
 .benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* First article in the main article section */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -146,6 +169,7 @@ p {
   color: #ffffff;
 }
 
+/* Second article in the main article section */
 .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
@@ -155,6 +179,7 @@ p {
   color: #ffffff;
 }
 
+/* Third article in the main article section */
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -164,33 +189,40 @@ p {
   color: #ffffff;
 }
 
+/* accomanying image for the first main article about seo */
 .search-engine-optimization img {
   max-height: 200px;
 }
 
+/* accomanying image for the second main article about seo */
 .online-reputation-management img {
   max-height: 200px;
 }
 
+/* accomanying image for the third main article about seo */
 .social-media-marketing img {
   max-height: 200px;
 }
 
+/* Heading for the first main article of the website */
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Heading for the second main article of the website */
 .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Heading for the third main article of the website */
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* styling for the footer of the page */
 .footer {
   padding: 30px;
   clear: both;
@@ -199,6 +231,7 @@ p {
   text-align: center;
 }
 
+/* styling for the header of the footer of the page */
 .footer h2 {
   font-size: 20px;
 }
